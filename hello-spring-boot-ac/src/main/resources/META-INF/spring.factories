@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.swift.hello.spring.boot.configuration.UserAutoConfiguration

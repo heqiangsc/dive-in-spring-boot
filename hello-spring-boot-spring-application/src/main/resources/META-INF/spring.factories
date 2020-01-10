@@ -1,0 +1,16 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.swift.hello.spring.boot.spring.application.context.AfterHelloWorldApplicationContextInitializer,\
+com.swift.hello.spring.boot.spring.application.context.HelloWorldApplicationContextInitializer
+
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.swift.hello.spring.boot.spring.application.listener.AfterHelloWorldApplicationListener,\
+com.swift.hello.spring.boot.spring.application.listener.HelloWorldApplicationListener,\
+com.swift.hello.spring.boot.spring.application.listener.BeforeHelloWorldApplicationContextInitializer
+
+
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.swift.hello.spring.boot.spring.application.run.HelloWorldRunListener
