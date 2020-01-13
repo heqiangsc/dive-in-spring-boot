@@ -13,7 +13,7 @@ public class BeforeHelloWorldApplicationContextInitializer implements SmartAppli
 
     @Override
     public int getOrder() {
-        return ConfigFileApplicationListener.DEFAULT_ORDER - 1;
+        return ConfigFileApplicationListener.DEFAULT_ORDER + 1;
     }
 
     @Override
