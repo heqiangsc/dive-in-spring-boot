@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @ControllerAdvice
 public class HelloControllerAdvice {
 
-   /* @ModelAttribute("message")
+   @ModelAttribute("message")
     public String message() {
         return "hello, world";
     }
@@ -26,7 +26,7 @@ public class HelloControllerAdvice {
     public String jsessionId(@CookieValue(value = "JSESSIONID") String jsessionId) {
         return jsessionId;
     }
-*/
+
 
     @ExceptionHandler(Throwable.class)
     public ResponseEntity<String> onException(Throwable throwable) {
