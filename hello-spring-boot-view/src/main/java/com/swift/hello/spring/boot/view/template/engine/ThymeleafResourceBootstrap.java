@@ -1,4 +1,4 @@
-package com.swift.hello.spring.boot.view.bootstrap;
+package com.swift.hello.spring.boot.view.template.engine;
 
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.core.io.DefaultResourceLoader;
